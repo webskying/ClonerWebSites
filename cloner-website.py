@@ -121,7 +121,7 @@ def clone_site(url, output_dir, visited=None):
         print(f"克隆出错: {str(e)}")
 
 if __name__ == "__main__":
-    site_url = "https://www.web-note.cn"
-    output_dir = "D:/Develop/AIWeb/AIWeb"
+    site_url = "https://your-target-website.com"    # 目标网站URL
+    output_dir = "path/to/output/directory"         # 输出目录
     clone_site(site_url, output_dir)
     print(f"\n网站克隆完成！文件保存在: {output_dir}")
